@@ -2044,7 +2044,7 @@ input::-moz-focus-inner {
 		position: relative;
 	}
 
-/*		.image:before {
+		.image:before {
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
@@ -2059,7 +2059,7 @@ input::-moz-focus-inner {
 			position: absolute;
 			top: 0;
 			width: 100%;
-		}*/
+		}
 
 		.image.thumb {
 			text-align: center;
@@ -2093,10 +2093,10 @@ input::-moz-focus-inner {
 				opacity: 1.0;
 			}
 
-/*			.image.thumb:hover:before {
+			.image.thumb:hover:before {
 				background: url("images/overlay.png");
 				opacity: 1.0;
-			}*/
+			}
 
 		.image img {
 			border-radius: 0.35em;
@@ -2594,8 +2594,8 @@ input::-moz-focus-inner {
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
 		background-image: url("images/overlay.png"), url("../../images/background2.jpg");
-		background-position:center		center;
-		background-repeat: repeat-y		no-repeat;
+		background-position: center					center;
+		background-repeat: repeat-y					no-repeat;
 		background-size: 106%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
@@ -3079,9 +3079,9 @@ input::-moz-focus-inner {
 				background-attachment: scroll;
 				background-color: #1f1815;
 				background-image:url("images/overlay.png"), url("../../images/background2.jpg");
-				background-position: 	bottom center,					bottom center;
-				background-repeat:		repeat,					no-repeat;
-				background-size:	cover,					cover;
+				background-position: 	center					bottom center;
+				background-repeat:		repeat					no-repeat;
+				background-size:	cover					cover;
 				bottom: auto;
 				left: auto;
 				padding: 4em 4em 6em 4em;
