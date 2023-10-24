@@ -2594,8 +2594,8 @@ input::-moz-focus-inner {
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
 		background-image: url("images/overlay.png"), url("../../images/background2.jpg");
-		background-position: center;
-		background-repeat: no-repeat;
+		background-position:center		center;
+		background-repeat: repeat-y		no-repeat;
 		background-size: 106%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
